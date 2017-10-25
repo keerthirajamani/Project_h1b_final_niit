@@ -1,0 +1,1 @@
+sqooop export -connect jdbc:mysql://localhost/q10/ --username root --password 'thor' --table qten --update-mode allowinsert --export-dir /niit/pigop/ten/p* --input-fields-terminated-by '\t'
